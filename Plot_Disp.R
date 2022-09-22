@@ -1,5 +1,5 @@
 library(readr)
-disp <- read_csv("./disp.csv")
+disp <- read_csv("https://github.com/mariohg81/Prueba/disp.csv")
 View(disp)
 
 fig <- plot_ly(disp,name = 'gfem_front_base', x = ~gfem_front_base_x, y = ~gfem_front_base_y, z = ~gfem_front_base_z, type = 'scatter3d', mode = 'markers', opacity = 1, line = list(width = 6, reverscale = FALSE))
